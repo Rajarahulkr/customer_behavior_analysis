@@ -28,7 +28,7 @@ Rows: 3,900
 Columns: 18
 (From dataset description on page 1 
 
-Customer Shopping Behavior Anal…
+Customer Shopping Behavior Analysis
 
 )
 
@@ -46,7 +46,7 @@ Missing Data:
 
 37 missing values in Review Rating (page 1) 
 
-Customer Shopping Behavior Anal…
+Customer Shopping Behavior Analysis
 
 🛠️ Tools & Technologies
 
@@ -72,7 +72,7 @@ df.head()
 
 As described in the PDF (page 1–2) 
 
-Customer Shopping Behavior Anal…
+Customer Shopping Behavior Analysis
 
 :
 
@@ -88,7 +88,7 @@ Examined relationships between demographics, spending, rating & categories
 
 Key cleaning steps (page 2) 
 
-Customer Shopping Behavior Anal…
+Customer Shopping Behavior Analysis
 
 :
 
@@ -114,7 +114,7 @@ df['review_rating'] = df.groupby('category')['review_rating'].transform(
 
 Data was loaded into PostgreSQL for business-focused queries (page 3–6) 
 
-Customer Shopping Behavior Anal…
+Customer Shopping Behavior Analysis
 
 .
 
@@ -145,7 +145,7 @@ ORDER BY total_revenue DESC;
 
 An interactive Customer Behavior Dashboard was created (shown on page 7) 
 
-Customer Shopping Behavior Anal…
+Customer Shopping Behavior Analysis
 
 .
 
@@ -228,18 +228,4 @@ Open the .pbix file inside the powerbi/ folder.
 
 Open reports/gamma_report.pdf or presentation.pptx.
 
-📁 Project Structure
-Customer-Shopping-Behavior-Analysis/
-│── data/
-│   └── customer_data.csv
-│── notebooks/
-│   └── eda.ipynb
-│── sql/
-│   └── queries.sql
-│── powerbi/
-│   └── dashboard.pbix
-│── reports/
-│   ├── gamma_report.pdf
-│   └── presentation.pptx
-└── README.md
 
